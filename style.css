@@ -38,10 +38,6 @@
     display: flex;
 }
 
-.left {
-
-}
-
 .right {
     display: flex;
     flex-direction: column;
@@ -52,4 +48,9 @@
 
 .right-header, .log-in {
     background-color: rgba(233, 233, 233, 0.5);
+    flex-grow: 1;
+}
+
+.right-header, form, .log-in {
+    padding: 1rem;
 }
