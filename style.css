@@ -7,11 +7,42 @@
     font-family: 'Norse Bold';
 } */
 
-img {
+#bg {
+    position: absolute;
     width: 33vw;
     height: 100vh;
+    z-index: -1;
+}
+
+#logo {
+    width: 100px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 33vw;
+    position: relative;
+    top: 200px;
+}
+
+.card-text {
+    font-family: 'Norse Bold';
+    color: white;
+    font-size: 500%;
 }
 
 .container {
     display: flex;
+}
+
+.left {
+    position: absolute;
+}
+
+.right {
+    position: relative;
+    left: 35vw;
 }
