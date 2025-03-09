@@ -6,3 +6,12 @@
 /* body {
     font-family: 'Norse Bold';
 } */
+
+img {
+    width: 33vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
