@@ -30,29 +30,38 @@
                 <div class="form-container">
                     <h1>Let's do this!</h1>
                     <div class="form-name">
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name" placeholder="John">
-
-                        <label for="last-name">Last Nam</label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Doe">
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="John">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Doe">
+                        </div>
                     </div>
                     <div class="form-contact">
+                        <div class="form-group">
                             <label for="user-email">Email</label>
                             <input type="email" name="user-email" id="user-email" placeholder="you@example.com">
-
+                        </div>
+                        <div class="form-group">
                             <label for="user-number">Phone Number</label>
                             <input type="number" name="user-number" id="user-number">
+                        </div>
                     </div>
                     <div class="form-password">
+                        <div class="form-group">
                             <label for="user-password">Password</label>
                             <input type="password" name="password" id="user-password">
-
+                        </div>
+                        <div class="form-group">
                             <label for="user-confirm-password">Confirm Password</label>
                             <input type="password" name="user-confirm-password" id="user-confirm-password">
+                        </div>
                     </div>
                 </div>
 
-            <button type="submit">Create Account</button>
+                <button type="submit">Create Account</button>
             </form>
             <div class="log-in">
                 <p>Already have an account? <a href="#">Log in</a></p>

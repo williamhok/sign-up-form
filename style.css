@@ -3,10 +3,6 @@
     src: url(https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf);
 }
 
-/* body {
-    font-family: 'Norse Bold';
-} */
-
 #bg {
     position: absolute;
     width: 33vw;
@@ -53,4 +49,14 @@
 
 .right-header, form, .log-in {
     padding: 1rem;
+}
+
+.form-name {
+    display: flex;
+    gap: 100px
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
 }
