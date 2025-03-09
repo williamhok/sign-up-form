@@ -39,10 +39,9 @@
 }
 
 .left {
-    position: absolute;
+
 }
 
 .right {
-    position: relative;
-    left: 35vw;
+
 }
