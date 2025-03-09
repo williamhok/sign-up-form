@@ -91,3 +91,7 @@ a {
     font-weight: 900;
     text-decoration: none;
 }
+
+input[type="password"]:invalid {
+    border: 1px solid red;
+}
